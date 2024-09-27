@@ -15,4 +15,52 @@
   --bold: 900;
   --light: 300;
   --emphasis: italic;
+
+  /* LAYOUT */
+  --content-width: 720px;
+  --item-spacing: 16px;
 }
+
+/* TAGS */
+
+body {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+a {
+  color: var(--grey);
+  text-decoration: none;
+}
+
+/* HEADER */
+.header {
+  background-color: var(--dark-blue);
+  color: var(--white);
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: var(--content-width);
+  margin: auto;
+}
+
+.header-logo {
+  font-size: var(--medium);
+}
+
+.header-links > ul {
+  display: flex;
+  justify-content: flex-end;
+  gap: var(--item-spacing);
+  font-size: var(--small);
+}
+
+/* HERO BANNER */
