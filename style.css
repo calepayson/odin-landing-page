@@ -2,6 +2,7 @@
   /* COLOR */
   --dark-blue: #1F2937;
   --blue: #3882F6;
+  --dark-grey: #6d747d;
   --grey: #E5E7EB;
   --white: #F9FAF8;
 
@@ -25,15 +26,14 @@ body {
 .header {
   background-color: var(--dark-blue);
   color: var(--white);
-  display: flex;
-  justify-content: center;
 }
 
 .header-content {
+  margin: auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 720px;
+  width: 900px;
   padding: 16px;
 }
 
@@ -58,3 +58,40 @@ a {
   color: var(--white);
   text-decoration: none;
 }
+
+.hero-content {
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  width: 900px;
+  padding-top: 48px;
+  padding-bottom: 64px;
+}
+
+.hero-text {
+  flex: 1;
+}
+
+.hero-title {
+  font-size: var(--huge);
+  font-weight: var(--bold);
+}
+
+.hero-paragraph {
+  font-size: var(--small);
+  color: var(--grey);
+  margin-top: 16px;
+}
+
+.hero-button {
+  margin-top: 16px;
+}
+
+.hero-image {
+  flex: 1;
+  background-color: var(--dark-grey);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
