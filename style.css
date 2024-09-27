@@ -25,6 +25,7 @@
 
 body {
   margin: 0;
+  font-family: var(--font);
 }
 
 ul {
@@ -63,4 +64,11 @@ a {
   font-size: var(--small);
 }
 
-/* HERO BANNER */
+/* FOOTER */
+.footer {
+  background-color: var(--dark-blue);
+  color: var(--white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
