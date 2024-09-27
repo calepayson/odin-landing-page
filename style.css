@@ -95,3 +95,12 @@ a {
   align-items: center;
 }
 
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--dark-blue);
+  color: var(--white);
+  font-size: var(--small);
+  padding: 16px;
+}
