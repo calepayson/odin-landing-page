@@ -1,0 +1,17 @@
+:root {
+  /* COLOR */
+  --dark-blue: #1F2937;
+  --blue: #3882F6;
+  --grey: #E5E7EB;
+  --white: #F9FAF8;
+
+  /* TEXT */
+  --font: "Roboto"
+  --huge: 48px;
+  --big: 36px;
+  --medium: 24px;
+  --small: 18px;
+  --bold: 900;
+  --light: 300;
+  --emphasis: italic;
+}
