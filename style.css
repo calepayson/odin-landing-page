@@ -19,6 +19,7 @@
   /* LAYOUT */
   --content-width: 720px;
   --item-spacing: 16px;
+  --hero-padding: 48px;
 }
 
 /* TAGS */
@@ -37,6 +38,16 @@ ul {
 a {
   color: var(--grey);
   text-decoration: none;
+}
+
+button {
+  color: var(--white);
+  background-color: var(--blue);
+  border: 2px solid var(--blue);
+  width: 100px;
+  height: 50px;
+  border-radius: 10px;
+  font-size: var(--small);
 }
 
 /* HEADER */
@@ -62,6 +73,49 @@ a {
   justify-content: flex-end;
   gap: var(--item-spacing);
   font-size: var(--small);
+}
+
+/* HERO BANNER */
+.hero {
+  background-color: var(--dark-blue);
+}
+
+.hero-container {
+  display: flex;
+  width: var(--content-width);
+  margin: auto;
+  padding-top: var(--hero-padding);
+  padding-bottom: var(--hero-padding);
+}
+
+.hero-text {
+  flex: 1;
+}
+
+.hero-text > h1 {
+  color: var(--white);
+  font-size: var(--huge);
+  font-weight: var(--bold);
+  margin: 0px;
+}
+
+.hero-text > p {
+  color: var(--grey);
+  font-size: var(--small);
+}
+
+.hero-image {
+  flex: 1;
+}
+
+.hero-image > p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--dark-grey);
+  width: 400px;
+  height: 260px;
+  margin: 0;
 }
 
 /* FOOTER */
