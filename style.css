@@ -17,7 +17,8 @@
   --emphasis: italic;
 
   /* LAYOUT */
-  --content-width: 720px;
+  --wide-content-width: 900px;
+  --narrow-content-width: 720px;
   --item-spacing: 16px;
   --hero-padding: 48px;
   --carousel-gap: 32px;
@@ -62,7 +63,7 @@ button {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: var(--content-width);
+  width: var(--wide-content-width);
   margin: auto;
 }
 
@@ -90,10 +91,12 @@ button {
 
 .hero-container {
   display: flex;
-  width: var(--content-width);
+  padding: 0;
+  margin: 0;
   margin: auto;
   padding-top: var(--hero-padding);
   padding-bottom: var(--hero-padding);
+  width: var(--wide-content-width);
 }
 
 .hero-text {
@@ -114,6 +117,8 @@ button {
 
 .hero-image {
   flex: 1;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .hero-image > p {
@@ -134,7 +139,7 @@ button {
 }
 
 .info-container {
-  width: var(--content-width);
+  width: var(--narrow-content-width);
   margin: auto;
 }
 
@@ -168,7 +173,7 @@ button {
 }
 
 .quote-container {
-  width: var(--content-width);
+  width: var(--narrow-content-width);
   margin: auto;
   padding: 16px;
 }
@@ -186,6 +191,8 @@ button {
   font-size: var(--medium);
   font-weight: var(--bold);
 }
+
+/* SIGNUP */
 
 /* FOOTER */
 .footer {
