@@ -162,6 +162,31 @@ button {
   text-align: center;
 }
 
+/* QUOTE */
+.quote {
+  background-color: var(--grey);
+}
+
+.quote-container {
+  width: var(--content-width);
+  margin: auto;
+  padding: 16px;
+}
+
+.quote-text {
+  font-size: var(--big);
+  font-style: var(--emphasis);
+  font-weight: var(--light);
+  color: var(--dark-blue);
+}
+
+.quote-author {
+  text-align: right;
+  color: var(--dark-blue);
+  font-size: var(--medium);
+  font-weight: var(--bold);
+}
+
 /* FOOTER */
 .footer {
   background-color: var(--dark-blue);
@@ -170,3 +195,4 @@ button {
   justify-content: center;
   align-items: center;
 }
+
