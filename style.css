@@ -193,6 +193,44 @@ button {
 }
 
 /* SIGNUP */
+.signup {
+  background-color: var(--white);
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.signup-container {
+  width: var(--wide-content-width);
+  background-color: var(--blue);
+  margin: auto;
+  padding: 16px;
+  border-radius: 20px;
+}
+
+.signup-content {
+  width: var(--narrow-content-width);
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.signup-text {
+  color: var(--white);
+}
+
+.signup-text > h2 {
+  font-size: var(--medium);
+  font-weight: var(--bold);
+}
+
+.signup-text > p {
+  font-size: var(--small);
+}
+
+.signup-content > button {
+  border-color: white;
+}
 
 /* FOOTER */
 .footer {
