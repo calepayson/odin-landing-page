@@ -20,6 +20,8 @@
   --content-width: 720px;
   --item-spacing: 16px;
   --hero-padding: 48px;
+  --carousel-gap: 32px;
+  --carousel-image-dimensions: 150px;
 }
 
 /* TAGS */
@@ -75,6 +77,12 @@ button {
   font-size: var(--small);
 }
 
+/* CONTENT */
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
 /* HERO BANNER */
 .hero {
   background-color: var(--dark-blue);
@@ -116,6 +124,42 @@ button {
   width: 400px;
   height: 260px;
   margin: 0;
+}
+
+
+/* INFO */
+.info {
+  background-color: var(--white);
+  padding-bottom: 16px;
+}
+
+.info-container {
+  width: var(--content-width);
+  margin: auto;
+}
+
+.info-container > h2 {
+  color: var(--dark-blue);
+  font-size: var(--big);
+  font-weight: var(--bold);
+  text-align: center;
+}
+
+.carousel {
+  display: flex;
+  justify-content: center;
+  gap: var(--carousel-gap);
+}
+
+.carousel-picture {
+  border: 3px solid var(--blue);
+  height: var(--carousel-image-dimensions);
+  width: var(--carousel-image-dimensions);
+  border-radius: 15px;
+}
+
+.carousel-item > p {
+  text-align: center;
 }
 
 /* FOOTER */
